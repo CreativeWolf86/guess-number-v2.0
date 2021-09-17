@@ -160,9 +160,8 @@ footer {
   font-weight: bold;
 }
 
-.label-score,
 .label-highscore {
-  text-shadow: 1px 1px 0.5px #181818;
+  margin-bottom: 20px;
 }
 
 .score {
@@ -173,7 +172,14 @@ footer {
   color: #fa434c;
 }
 
+.label-score,
+.label-highscore,
 .score,
 .highscore {
   text-shadow: 1px 1px 0.5px #181818;
+}
+
+.author {
+  font-size: 1rem;
+  text-shadow: 0.5px 0.5px 0.5px #181818;
 }
