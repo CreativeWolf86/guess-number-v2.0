@@ -34,6 +34,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = score;
     } else {
       displayHint('GAME OVER 💀');
+      document.querySelector('.game-container').style.backgroundColor = '#ff9999';
       document.querySelector('.score').textContent = 0;
     }
   }
